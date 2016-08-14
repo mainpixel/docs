@@ -1,0 +1,15 @@
+{
+  "version" : "4.0",
+  "default" : "home",
+  "sidebar" : {
+    "Prologue" : {
+      "Release Notes" : "release_notes",
+      "Contribution Guide" : "contribution"
+    },
+    "Setup" : {
+      "Installation" : "install",
+      "Requirements" : "requirements"
+    }
+  }
+
+}
