@@ -1,14 +1,49 @@
 {
   "version" : "4.0",
-  "default" : "home",
+  "default" : "introduction",
   "sidebar" : {
     "Prologue" : {
-      "Release Notes" : "release_notes",
+       "Introduction" : "introduction",
+      "Release Notes" : "releases",
       "Contribution Guide" : "contribution"
     },
     "Setup" : {
-      "Installation" : "install",
-      "Requirements" : "requirements"
+	    "Manage API Tokens" : "api_tokens",
+	   "Getting started with Laravel" : "laravel_install",
+	   "Getting started with cURL" : "curl_install"
+    },
+    "Profiles" : {
+	    "Profiles Explained" : "profiles_explained",
+	    "Settings" : "profile_settings"
+    },
+    "CRM" : {
+      "Debtors" : "debtors",
+      "Creditors" : "creditors",
+      "Contacts" : "contacts"
+    },
+    "FINANCE" : {
+        "Invoices" : "invoices",
+        "Periodic Invoices" : "invoices_period",
+        "Incoming Bills" : "invoices_inc"
+    },
+    "SALES" : {
+        "Products" : "products",
+        "Product Groups" : "product_groups",
+        "Orders" : "orders",
+        "Offers" : "offers"
+    },
+    "HOSTING" : {
+        "Webcontainers" : "webcontainers",
+        "Domains" : "domains",
+        "DNS Records" : "domain_records",
+        "Email Usage" : "email",
+        "Databases" : "databases",
+        "SSH - Keys" : "keys",
+        "Backups" : "backups"
+    },
+    "SERVICE" : {
+        "Tickets" : "tickets",
+        "Test" : "test123"
     }
   }
 
